@@ -37,7 +37,7 @@ export default function Users() {
 
    return(
     <div className="min-h-screen bg-gray-100 p-8">
-        <h1 className="text-2xl font-bold mb-4 text-center">
+        <h1 className="text-2xl font-bold mb-4 text-center text-gray-700">
             Хэрэглэгчийн жагсаалт
         </h1>
         <div className="mb-6">
