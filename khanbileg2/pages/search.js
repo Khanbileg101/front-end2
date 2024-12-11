@@ -9,7 +9,7 @@ const usersdata = [
     {id: 6, name: "B.Temuujin", email: "medhgu"},
     {id: 7, name: "SH.Temuujin", email: "medhgu"},
     {id: 8, name: "E.Temuujin", email: "medhgu"},
-    {id: 9, name: "Temuulen", email: "medhgu"},
+    {id: 9, name: "Temuulen", email: "temuulen@gmail.com"},
     {id: 10, name: "Tergel", email: "medhgu"},
     {id: 11, name: "Khanbileg", email: "khanbileg7@gmail.com"},
     {id: 12, name: "Tselmeg", email: "medhgu"},

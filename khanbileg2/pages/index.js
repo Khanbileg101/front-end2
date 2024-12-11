@@ -1,34 +1,11 @@
 import React , { useState } from "react";
  
-const useStateTask= () => {
-  const[color, setColor] = useState("");
+export default function Home() {
   return(
-
-    <div className={`flex space-x-4 w-full h-screen bg-${color}-800`}>
-      <p>Өнгө солих:</p>
-       <button className="border bg-red-800 py-6 px-4" 
-       onClick={() => {
-       setColor("red");
-      } }
-      >
-        Улаан
-       </button>
-       <button className="border bg-blue-800 py-6 px-4" 
-       onClick={() => {
-       setColor("blue");
-      } }
-      >
-        Цэнхэр
-       </button>
-      <button className="border bg-green-800 py-6 px-4" 
-        onClick={() => {
-        setColor("green");
-      } }
-      >
-        Ногоон
-      </button>
+    <div className="min-h-screen bg-gray-700">
+      <div className="gtid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl w-full px-4">
+        <div className="bg-white shadow-lg rounded-lg p-6"></div>
+      </div>
     </div>
-  );
-};
-
-export default useStateTask;
+  )
+}
